@@ -35,6 +35,7 @@ pids
 # Output
 dist/
 build/
+coverage/
 
 # Misc
 .DS_Store
