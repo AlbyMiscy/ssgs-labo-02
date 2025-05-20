@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - feature/ci-workflow-coverage
   pull_request:
     branches:
         - main
