@@ -15,12 +15,12 @@ Labo-String è una semplice interfaccia a riga di comando (CLI) sviluppata in No
 
 ## Installazione
 
-Clona il repository e installa le dipendenze (se presenti):
+Clona il repository e installa le dipendenze:
 
 ```bash
 git clone https://github.com/AlbyMiscy/ssgs-labo-02.git
 cd ssgs-labo-02
-npm install
+npm ci
 ```
 
 ## Utilizzo
@@ -61,6 +61,6 @@ ssgs-labo-02/
 ├── README.md
 └── src/
     └── stringUtils.
-├── test/
+└── test/
     └── stringUstils.test.js
 ```
