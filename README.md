@@ -31,6 +31,15 @@ Esegui il programma tramite Node.js passando i parametri richiesti:
 node index.js <numero_funzione> <stringa_input> [parametro_aggiuntivo]
 ```
 
+## Test 
+
+Per eseguire i test:
+
+```bash
+npm test
+```
+> Nota: Questo comando eseguirà tutti i test Jest in `stringUtils.test.js` e genererà automaticamente un report nella cartella `coverage`. 
+
 ### Opzioni disponibili
 
 - `1`: Inverti Stringa  
