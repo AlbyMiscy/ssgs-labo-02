@@ -60,5 +60,7 @@ ssgs-labo-02/
 ├── .gitignore
 ├── README.md
 └── src/
-    └── stringUtils.js
+    └── stringUtils.
+├── test/
+    └── stringUstils.test.js
 ```
