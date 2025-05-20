@@ -1,4 +1,3 @@
-// filepath: /home/albymiscy/uni/labo2-ssgs/ssgs-labo-02/test/stringUstils.test.js
 const {
     reverseString,
     isPalindrome,
