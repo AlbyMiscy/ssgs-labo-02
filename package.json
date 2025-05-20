@@ -1,12 +1,23 @@
 {
   "name": "labo-string",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "CLI per utilità di manipolazione stringhe in Node.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "lint": "npx eslint .",
+    "format": "npx prettier --write ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "string",
+    "cli",
+    "nodejs",
+    "utility"
+  ],
+  "author": "Michelle Alberti",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  }
 }
