@@ -31,16 +31,7 @@ Esegui il programma tramite Node.js passando i parametri richiesti:
 node index.js <numero_funzione> <stringa_input> [parametro_aggiuntivo]
 ```
 
-## Test 
-
-Per eseguire i test:
-
-```bash
-npm test
-```
-> Nota: Questo comando eseguirà tutti i test Jest in `stringUtils.test.js` e genererà automaticamente un report nella cartella `coverage`. 
-
-### Opzioni disponibili
+## Opzioni disponibili
 
 - `1`: Inverti Stringa  
   Esempio: `node index.js 1 "ciao"`
@@ -50,6 +41,15 @@ npm test
   Esempio: `node index.js 3 "esempio" 4`
 - `4`: Conta Caratteri  
   Esempio: `node index.js 4 "banana"`
+
+## Test 
+
+Per eseguire i test:
+
+```bash
+npm test
+```
+> Nota: Questo comando eseguirà tutti i test Jest in `stringUtils.test.js` e genererà automaticamente un report nella cartella `coverage`. 
 
 ## Struttura del progetto
 
